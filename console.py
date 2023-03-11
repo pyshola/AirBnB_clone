@@ -8,7 +8,7 @@ from models.user import User
 import json
 import re
 
-classes = ["BaseModel", "User"]
+classes = ["BaseModel", "User", "Place", "City", "State", "Amenity", "Review"]
 
 
 def check_arg(arg):
