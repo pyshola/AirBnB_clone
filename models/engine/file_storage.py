@@ -8,7 +8,7 @@ import os
 import os.path as path
 from datetime import datetime
 from models.base_model import BaseModel
-
+from models.user import User
 
 class FileStorage:
     """ construct """
