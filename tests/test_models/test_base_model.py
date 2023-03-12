@@ -16,8 +16,6 @@ class BaseModel_testing(unittest.TestCase):
         result = pepstylecode.check_files(['models/base_model.py',
                                          'models/__init__.py',
                                          'models/engine/file_storage.py'])
-        print(dir(result))
-        print(result.messages)
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
 
